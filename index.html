@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0006b0e0a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <img src="images/logo-my.png" alt="logo" srcset="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Jayesh</span> <br> Navi Mumbai</h1>
+            </div>
+            <!-- <a href="#" id="wp"><img src="images/whatsapp-icon.webp" alt=""></i></a> -->
+        </div>
+    </div>
+
+    <!----------------- About---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="" loading="lazy">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hello! My name is Jayesh Vishe. <br>
+                        I am currently a Fourth Year IT student pursuing graduation from Mumbai University.
+                        I am a motivated and highly driven individual with a passion for continuous learning and
+                        personal growth.
+                        One of my key strengths is my ability to adapt to different environments and challenges.
+                        I thrive in dynamic and fast-paced settings, and I am always eager to take an new
+                        responsibilities.
+                        I am a strong believer in lifelong learning and strive to apply new insights and skills to my
+                        work.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Acmegrade</span><br>Web Development course & Internship Certified</li>
+                            <li><span>Forage</span><br>Software Development virtual internship</li>
+                            <li><span>Projects</span><br>Cafe Manage System using HTML CSS JS</li>
+                            <li><span>2024 - Current</span><br>Internship at Oasis Infobyte</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>SSC from state board Maharashtra.</li>
+                            <li><span>2021</span><br>HSC from state board Maharashtra.</li>
+                            <li><span>2021 - 2025</span><br>Pursuing BE-IT from Mumbai university.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------- Services ---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Elevate your brand online with our tailored web design services, delivering a perfect blend of aesthetics and information. We craft user-friendly websites that precisely showcase your offerings for a compelling digital presence.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Revolutionize user experiences with our UI/UX design expertise. We create visually stunning interfaces that seamlessly marry aesthetics with functionality, ensuring an engaging and intuitive digital journey for your audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Elevate your app's appeal with our expert app design services, blending aesthetics and functionality seamlessly. We specialize in creating visually striking and user-friendly interfaces for an exceptional mobile experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------- Portfolio ---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="" loading="lazy">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="" loading="lazy">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=com.spotify.music" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="" loading="lazy">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------------- Contact ---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jdvishe@zohomail.in</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7378****42</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/jayesh.vishe.376" target="_blank"><i
+                                class="fab fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/JayeshVishe10" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/_jay_1921" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/jayvishe1909" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Jayesh-Vishe-Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="contactform">
+                        <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" id="message" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Jayesh, Made using resources available on internet</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
